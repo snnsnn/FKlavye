@@ -1,12 +1,18 @@
 # Mac OS için Türkçe F Klavye Düzeni
 
-# Nedir?
+## Nedir?
 
 Yaygın olarak kullanılan F klavye düzeni ile Mac işletim sistemleriyle birlikte gelen F klavye düzeni arasındaki uyumsuzlukları gideren, Windows'taki F klavye dizilimini esas alan bir klavye düzenidir.
 
+## Version
+
+1.2
+
 ## Nasıl yüklenir?
 
-1. Bağlantıda yer alan [TurkceF.bundle](/TurkceF.bundle) dosyasını indirip bilgisayarınızın kullanıcı dizininde bulunan `~/Library/Keyboard Layouts` klasörüne kopyalayın. Klavye düzeninin bilgisayarınızda tanımlı tüm kullanıcılar tarafından kullanılabilmesini istiyorsanız `/Library/Keyboard Layouts` klasörünü tercih edin.
+1. Bağlantıda yer alan sıkıştırılmış [TurkceF.bundle](/TurkceF.bundle.zip) dosyasını indirip açın.
+
+2. Zip dosyasının içindeki `TurkceF.bundle` isimli dosyayı bilgisayarınızın kullanıcı dizininde bulunan `~/Library/Keyboard Layouts` klasörüne kopyalayın. Klavye düzeninin bilgisayarınızda tanımlı tüm kullanıcılar tarafından kullanılabilmesini istiyorsanız `/Library/Keyboard Layouts` klasörünü tercih edin.
 
 2. _Sistem tercihleri_'nden _Klavye_ ayarlarına gidip _Giriş Kaynakları_ sekmesini açın.
 
@@ -16,7 +22,7 @@ Yaygın olarak kullanılan F klavye düzeni ile Mac işletim sistemleriyle birli
 
 4. Aktif durumdaki klavye düzenini değiştirmek için ekranın sağ üst kısmında, saatin yanındaki klavye sembolüne tıklayın, gelen listeden _Türkçe F_ yi seçin. Menü çubuğunda yer alan _Türkçe F_ yazısını gizlemek isterseniz klavye sembolü üzerine tıklayıp _Giriş kaynağı adını gizle_ tercihini seçin.
 
-5. Bilgisayarınızı yeniden başlatın. (Yeniden başlatmadan bazı programlar yeni klavye düzenini tanımıyorlar.)
+5. Bilgisayarınızı yeniden başlatın. (Bazı programlar yeniden başlatılmadan sonradan eklediğiniz klavye düzenini tanımayabiliyor.)
 
 
 ## Tuş dizilimi
@@ -46,11 +52,13 @@ Yaygın olarak kullanılan F klavye düzeni ile Mac işletim sistemleriyle birli
 
 ## Notlar
 
-â, á, ñ gibi özel işaretler (accent ya da diacritic de deniyor) içeren harfleri doğrudan yazmak mümkün değil. Bunları yazarken önce işareti ardından işaretin kullanılacağı harfi tuşlamamız gerekir. 
+â, á, ñ gibi özel işaretler (accent ya da diacritic de deniyor) içeren harfleri doğrudan yazmak mümkün değil. Bunları yazarken önce işareti, ardından işareti kullanacak harfi tuşlamak gerekir. 
 
 ![^ ölü tuşu](/src/circumflex.png?raw=true "shift + 3 pressed")
 
-Örneğin, â yazabilmek için önce `Shift + ^` birleşimi ardından a harfini tuşlanmalı. ``^,`´¨~`` gibi doğrudan yazılamayan bu düzenleyici tuşlara [ölü tuşlar](https://en.wikipedia.org/wiki/Dead_key, "Dead key - wikipedia") denir. 
+Örneğin, â yazabilmek için önce `Shift + 3` birleşimi ile `^` işareti , ardından a harfini tuşlanmalı.
+
+``^ ` ´ ¨ ~`` gibi doğrudan yazılamayan düzenleyici tuşlara [ölü tuşlar](https://en.wikipedia.org/wiki/Dead_key, "Dead key - wikipedia") denir. 
 
 `` ^ ``: `Shift + 3`
 `` ` ``: `Alt + x`
@@ -59,7 +67,19 @@ Yaygın olarak kullanılan F klavye düzeni ile Mac işletim sistemleriyle birli
 `` ¨ ``: `Alt + q`
 
 ![tilde](/src/glyph_tilde.png?raw=true "tilde kullanan ölü tuşlar")
+
 ![acute](/src/glyph_acute.png?raw=true "acute kullanan ölü tuşlar")
+
 ![grave](/src/glyph_grave.png?raw=true "grave kullanan ölü tuşlar")
+
 ![circumflex](/src/circumflex.png?raw=true "circumflex kullanan ölü tuşlar")
+
 ![dieresis](/src/glyph_dieresis.png?raw=true "dieresis kullanan ölü tuşlar")
+
+## Değişiklikler
+
+1.2 İcon eklendi
+
+1.1 Hatalar giderildi
+
+1.0 İlk derleme
