@@ -1,7 +1,5 @@
 # Mac OS için Türkçe F Klavye Düzeni
 
-## Nedir?
-
 Yaygın olarak kullanılan F klavye düzeni ile Mac işletim sistemleriyle birlikte gelen F klavye düzeni arasındaki uyumsuzlukları gideren, Windows'taki F klavye dizilimini esas alan bir klavye düzenidir.
 
 ## Version
@@ -14,15 +12,15 @@ Yaygın olarak kullanılan F klavye düzeni ile Mac işletim sistemleriyle birli
 
 2. Zip dosyasının içindeki `TurkceF.bundle` isimli dosyayı bilgisayarınızın kullanıcı dizininde bulunan `~/Library/Keyboard Layouts` klasörüne kopyalayın. Klavye düzeninin bilgisayarınızda tanımlı tüm kullanıcılar tarafından kullanılabilmesini istiyorsanız `/Library/Keyboard Layouts` klasörünü tercih edin.
 
-2. _Sistem tercihleri_'nden _Klavye_ ayarlarına gidip _Giriş Kaynakları_ sekmesini açın.
+3. _Sistem tercihleri_'nden _Klavye_ ayarlarına gidip _Giriş Kaynakları_ sekmesini açın.
 
-3. Listededen _Türkçe F_ isimli kaynağı aktif hale getirin.
+4. Listededen _Türkçe F_ isimli kaynağı aktif hale getirin.
 
   Birden fazla klavye düzeni kullanıyorsanız _Klavye ve Karakter görüntüleyiciyi menü çubuğunda göster_ seçeneğini aktif hale getirin.
 
-4. Aktif durumdaki klavye düzenini değiştirmek için ekranın sağ üst kısmında, saatin yanındaki klavye sembolüne tıklayın, gelen listeden _Türkçe F_ yi seçin. Menü çubuğunda yer alan _Türkçe F_ yazısını gizlemek isterseniz klavye sembolü üzerine tıklayıp _Giriş kaynağı adını gizle_ tercihini seçin.
+5. Aktif durumdaki klavye düzenini değiştirmek için ekranın sağ üst kısmında, saatin yanındaki klavye sembolüne tıklayın, gelen listeden _Türkçe F_ yi seçin. Menü çubuğunda yer alan _Türkçe F_ yazısını gizlemek isterseniz klavye sembolü üzerine tıklayıp _Giriş kaynağı adını gizle_ tercihini seçin.
 
-5. Bilgisayarınızı yeniden başlatın. (Bazı programlar yeniden başlatılmadan sonradan eklediğiniz klavye düzenini tanımayabiliyor.)
+6. Bilgisayarınızı yeniden başlatın. (Bazı programlar yeniden başlatılmadan sonradan eklediğiniz klavye düzenini tanımayabiliyor.)
 
 
 ## Tuş dizilimi
